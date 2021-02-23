@@ -7,23 +7,17 @@
     <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
-
   <div id="page" class="container">
     <div id="content">
     <form  method="post" action="">
-	
-					<div >
+					<div>
 						<label>Nom Image :<input type="text" name="Name" id="Name" placeholder="Nom de l'image" /></label><br />
-						<br>
-					
 
 						<label for="titre">Choisir une image :</label>
 
 						<input type="file" id="Image" name="Image" accept="image/png, image/jpeg">
 					</div>
-						<br>
-						
-						
+
 					<div>
 						<label> Type d'image : </label>
 
@@ -34,8 +28,7 @@
 						</select> <br />
 
 					</div>
-					<br>
-					
+
 					<div>
 						<p>Photo avec produit:</p>
 
@@ -46,8 +39,7 @@
 						</select> <br />
 
 					</div>
-					<br>
-					
+
 					<div>
 						<p>Photo avec humain:</p>
 
@@ -58,8 +50,6 @@
 						</select> <br />
 
 					</div>
-					<br>
-					
 
 					<div>
 						<p>Photo institutionnelle:</p>
@@ -71,8 +61,6 @@
 						</select> <br />
 
 					</div>
-					<br>
-					
 					<div>
 						<label> Format : </label>
 						<select name="Format" id="Format">
@@ -82,14 +70,10 @@
 						</select> <br /><br />
 
 					</div>
-					<br>
-						
 
 					<div>
 						<label>Crédits : <input type="text" name="Crédit" id="Crédit" /></label><br />
 					</div>
-					<br>
-						
 
 					<div>
 						<p>Droits d’utilisation limités :</p>
@@ -100,14 +84,10 @@
 
 						</select> <br />
 					</div>
-					<br>
-						
 
 					<div>
 						<label>Copyright : <input type="text" name="Copyright" /></label><br />
 					</div>
-					<br>
-						
 
 					<div>
 						<label for="start">Date de fin d’utilisation :</label>
@@ -140,8 +120,7 @@
           ?>
     
 
-	<?php
+<?php
     
     require __DIR__. '/html/footer.html';
-    
 ?>

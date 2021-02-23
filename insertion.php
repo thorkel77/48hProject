@@ -25,14 +25,20 @@ $images = $pdoStat->fetchAll();
 </head>
 <body>
     <H1>Données en BD</H1>
-    <ul>
         
             <?php
             foreach ($images as $image):?>
     
-        <li>
-            <?=$image['Name']?> <?=$image['Type']?> <?=$image['Image']?>
-        </li>
+<br><br>
+       <table>
+  <tr>
+    <td><?=$image['Name']?></td>
+    <td><?=$image['Type']?></td>
+    <td><?=$image['Image']?></td>
+  </tr>
+</table>
+
+        
      </ul>
     
         <?php endforeach?>
